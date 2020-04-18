@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders correctly with all the props 1`] = `
+.c0 {
+  background-color: white;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,.1),0 10px 10px -5px rgba(0,0,0,.04);
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 12em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c1 {
+  background: no-repeat top/100% url(https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg);
+  min-height: 100%;
+  width: 50%;
+}
+
+.c2 {
+  background-color: white;
+  padding: 1em 2em 1em 3em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 60%;
+  -webkit-clip-path: polygon(5% 0,100% 0,100% 100%,0% 100%);
+  clip-path: polygon(5% 0,100% 0,100% 100%,0% 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.c3 {
+  font-size: 18px;
+  color: #7FAAE4;
+  font-weight: bold;
+}
+
+.c4 {
+  color: #757575;
+}
+
+.c5 {
+  font-size: 18px;
+  color: #834DB7;
+}
+
+.c5:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #34283F;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    data-testid="poster"
+  />
+  <div
+    class="c2"
+  >
+    <div>
+      <h3
+        class="c3"
+        data-testid="card-title"
+      >
+        Star Wars: Episode IV - A New Hope
+         (
+        1977
+        )
+      </h3>
+      <div
+        class="c4"
+      >
+        Rating: 
+        <b>
+          8.6
+        </b>
+      </div>
+    </div>
+    <a
+      class="c5"
+      href="https://www.starwars.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Go to website
+    </a>
+  </div>
+</div>
+`;
